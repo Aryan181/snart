@@ -17,7 +17,17 @@
             {
                 "command": "extension.helloWorld",
                 "title": "Hello World"
+            },
+            {
+                "command": "extension.insertComments",
+                "title": "Insert Comments"
             }
+        ],
+        "keybindings": [
+          {
+              "command": "extension.insertComments",
+              "key": "cmd+alt+c"
+          }
         ]
     },
     "scripts": {
@@ -46,4 +56,5 @@
         "body-parser": "^1.20.2",
         "express": "^4.18.2"
     }
-}
+  }
+  
